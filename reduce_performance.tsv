@@ -1,0 +1,11 @@
+Function\tTime_us\tV0_relative_speedup\tEffective_BW_GBps\tBandwidth_utilization_percent
+reduce_v0\t640.410\t1.000\t105.609\t23.570
+gpu_reduce_baesline\t27806.516\t0.023\t4.827\t1.077
+reduce_v1\t440.237\t1.455\t153.629\t34.287
+reduce_v2\t427.354\t1.499\t158.260\t35.321
+reduce_v3\t225.421\t2.841\t298.868\t66.702
+reduce_v4\t201.523\t3.178\t334.309\t74.612
+reduce_v5\t201.728\t3.175\t333.970\t74.536
+reduce_v6\t201.350\t3.181\t334.596\t74.676
+reduce_v7\t165.683\t3.865\t405.061\t90.403
+cub::DeviceReduce\t165.478\t3.870\t405.545\t90.510

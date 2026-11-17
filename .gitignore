@@ -1,0 +1,40 @@
+# CUDA 编译产物
+a.out
+*.o
+*.obj
+*.so
+*.a
+*.exe
+
+# Nsight 性能分析文件
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+
+# 临时文件
+*.tmp
+*.log
+
+# 本项目已知的无扩展名可执行文件
+atomicAdd
+constantMemory
+gemm
+gemm_benchmark
+gemm_run
+hello
+multiStream
+online_softmax
+online_softmax_run
+reduce
+reduce_benchmark
+reduce_benchmark_cub
+registers
+saxpy
+shared_memory
+softmax
+softmax_run
+tiling
+transpose
+unified_memory
+vadd
+warpShuffle
